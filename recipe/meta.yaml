@@ -1,4 +1,4 @@
-{% set version = "0.13.1" %}
+{% set version = "0.13.2" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/lsst-rsp/lsst_rsp-{{ version }}.tar.gz
-  sha256: 434e74ec85aa4be5e16f8978d6407c5042cd11cbb0b6c370479cc70d4a20d4bb
+  sha256: 5524cf58ebe920c5800ffacf452020c2b97e42e86072d764fdecaa4818962b94
 
 build:
   noarch: python
